@@ -1,39 +1,47 @@
-# Mutual Fund NAV Analysis
+# Mutual Fund Analytics - Day 1
 
-## Day 1 – Data Ingestion
+## Intern Details
 
-### Project Overview
+**Name:** Rakesh Kore
+**Internship:** Bluestock Fintech - Capstone Project I
+**Project:** Mutual Fund Analytics
 
-This project focuses on analyzing Mutual Fund NAV data using Python and data analytics tools.
+## Project Overview
 
-### Tasks Completed
+This project focuses on collecting, processing, and analyzing mutual fund NAV (Net Asset Value) data using Python and MFAPI.
 
-* Created project folder structure
-* Installed required dependencies
-* Loaded and explored CSV datasets
-* Fetched live NAV data using MFAPI
-* Validated AMFI scheme codes
-* Generated data quality summary
-* Version controlled project using Git and GitHub
+## Tasks Completed
 
-### Tech Stack
+* Project folder structure created
+* GitHub repository initialized
+* Python environment configured
+* requirements.txt created
+* Data ingestion pipeline implemented
+* Live NAV data fetched using MFAPI
+* Raw datasets stored in data/raw
+* Processed datasets stored in data/processed
+* Git version control and GitHub integration completed
+
+## Technologies Used
 
 * Python
 * Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Plotly
 * Requests
-* SQLAlchemy
-* Jupyter Notebook
+* Git
+* GitHub
 
-### Repository Structure
+## Project Structure
 
-data/
-scripts/
-requirements.txt
+* Source Code
+* Datasets
+* Documentation
+* PPT / Slides
+* Demo Video
 
-### Commit
+## GitHub Repository
 
-Day 1: Data ingestion complete
+https://github.com/Rk151103/Day-1-Data-ingestion-complete
+
+## Status
+
+Day 1 – Project Setup & Data Ingestion (ETL) Completed Successfully.
