@@ -2,7 +2,21 @@
 
 ## Bluestock Fintech Capstone Project
 
-This project is part of the Bluestock Fintech Data Analyst Internship. It focuses on collecting, cleaning, storing, and analyzing Mutual Fund NAV data using Python, Pandas, SQLite, SQL, and Git.
+### Project Overview
+
+This project is part of the Bluestock Fintech Data Analyst Internship. It focuses on collecting, cleaning, storing, and analyzing Mutual Fund NAV data using Python, Pandas, SQLite, SQL, and GitHub.
+
+---
+
+## Objectives
+
+* Collect Mutual Fund NAV data from MFAPI.
+* Perform data cleaning and preprocessing.
+* Store cleaned data in a SQLite database.
+* Write analytical SQL queries.
+* Document the dataset and project workflow.
+
+---
 
 ## Project Structure
 
@@ -13,44 +27,67 @@ mf-nav-analysis/
 │   ├── raw/
 │   └── processed/
 ├── scripts/
+│   ├── data_ingestion.py
+│   ├── live_nav_fetch.py
+│   ├── data_cleaning.py
+│   ├── database_loader.py
+│   ├── nav_plot.py
+│   ├── nav_returns.py
+│   └── performance_analysis.py
 ├── sql/
+│   ├── schema.sql
+│   └── queries.sql
 ├── reports/
-├── dashboard/
-├── notebooks/
+│   └── data_dictionary.md
+├── bluestock_mf.db
+├── requirements.txt
 └── README.md
 ```
+
+---
 
 ## Technologies Used
 
 * Python
 * Pandas
 * NumPy
-* SQLite
 * SQLAlchemy
+* SQLite
 * Matplotlib
 * Git & GitHub
 
-## Day 1 – Project Setup & Data Ingestion (ETL) ✅
+---
 
-* Project folder structure created
-* Dependencies installed
-* Loaded CSV datasets
-* Retrieved live NAV data from MFAPI
-* Saved raw datasets
-* Performed initial data exploration
-* Uploaded project to GitHub
+## Day 1 – Project Setup & Data Ingestion (ETL)
 
-## Day 2 – Data Cleaning + SQLite Database Design ✅
+### Completed Tasks
 
-* Cleaned all NAV datasets
-* Removed duplicate records
-* Standardized data
-* Saved cleaned datasets
-* Created SQLite database (`bluestock_mf.db`)
-* Loaded cleaned data into SQLite
-* Created `schema.sql`
-* Created `queries.sql`
-* Created `data_dictionary.md`
+* Created project folder structure.
+* Installed required Python libraries.
+* Loaded Mutual Fund datasets.
+* Retrieved live NAV data from MFAPI.
+* Saved raw datasets.
+* Performed initial data exploration.
+* Uploaded project to GitHub.
+
+---
+
+## Day 2 – Data Cleaning & SQLite Database Design
+
+### Completed Tasks
+
+* Cleaned NAV datasets.
+* Converted date columns to datetime format.
+* Removed duplicate records.
+* Validated NAV values.
+* Created processed datasets.
+* Built SQLite database (`bluestock_mf.db`).
+* Loaded cleaned data into SQLite.
+* Created SQL schema.
+* Wrote analytical SQL queries.
+* Prepared a data dictionary.
+
+---
 
 ## Deliverables
 
@@ -62,18 +99,25 @@ mf-nav-analysis/
 * SQL Queries
 * Data Dictionary
 * Documentation
+* README
+
+---
 
 ## GitHub Repository
 
-https://github.com/Rk151103/Day-1-Data-ingestion-complete
+**Repository:** https://github.com/Rk151103/Day-1-Data-ingestion-complete
 
-## Status
+---
 
-* ✅ Day 1 Completed
-* ✅ Day 2 Completed
+## Project Status
+
+* ✅ Day 1 – Completed
+* ✅ Day 2 – Completed
+
+---
 
 ## Author
 
 **Rakesh Kore**
-
-Bluestock Fintech Data Analyst Intern
+Data Analyst Intern
+Bluestock Fintech
