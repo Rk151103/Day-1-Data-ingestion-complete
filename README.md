@@ -1,44 +1,70 @@
-# Mutual Fund Analytics
+# 📊 Mutual Fund Analytics
 
-## Bluestock Fintech Capstone Project
+### Bluestock Fintech Capstone Project
 
-### Project Overview
+## 📌 Project Overview
 
-This project is part of the Bluestock Fintech Data Analyst Internship. It focuses on collecting, cleaning, storing, and analyzing Mutual Fund NAV data using Python, Pandas, SQLite, SQL, and GitHub.
+This project was completed as part of the **Bluestock Fintech Data Analyst Internship**. It focuses on collecting, cleaning, analyzing, and visualizing Mutual Fund NAV data using Python, SQLite, SQL, Jupyter Notebook, and Streamlit.
+
+The project demonstrates the complete data analytics workflow, from data ingestion to an interactive dashboard.
 
 ---
 
-## Objectives
+# 🎯 Objectives
 
-* Collect Mutual Fund NAV data from MFAPI.
+* Collect Mutual Fund NAV data using MFAPI.
 * Perform data cleaning and preprocessing.
-* Store cleaned data in a SQLite database.
+* Store processed data in a SQLite database.
+* Perform Exploratory Data Analysis (EDA).
+* Generate insightful visualizations.
 * Write analytical SQL queries.
-* Document the dataset and project workflow.
+* Build an interactive Streamlit dashboard.
+* Document the complete project.
 
 ---
 
-## Project Structure
+# 🛠️ Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Plotly
+* SQLite
+* SQLAlchemy
+* Streamlit
+* Jupyter Notebook
+* Git & GitHub
+
+---
+
+# 📂 Project Structure
 
 ```text
 mf-nav-analysis/
 │
+├── dashboard/
+│   └── app.py
+│
 ├── data/
 │   ├── raw/
 │   └── processed/
+│
+├── notebooks/
+│   └── EDA_Analysis.ipynb
+│
+├── reports/
+│   ├── charts/
+│   ├── data_dictionary.md
+│   └── insights.md
+│
 ├── scripts/
-│   ├── data_ingestion.py
-│   ├── live_nav_fetch.py
-│   ├── data_cleaning.py
-│   ├── database_loader.py
-│   ├── nav_plot.py
-│   ├── nav_returns.py
-│   └── performance_analysis.py
+│
 ├── sql/
 │   ├── schema.sql
 │   └── queries.sql
-├── reports/
-│   └── data_dictionary.md
+│
 ├── bluestock_mf.db
 ├── requirements.txt
 └── README.md
@@ -46,78 +72,113 @@ mf-nav-analysis/
 
 ---
 
-## Technologies Used
+# ✅ Project Modules
 
-* Python
-* Pandas
-* NumPy
-* SQLAlchemy
-* SQLite
-* Matplotlib
-* Git & GitHub
+### Day 1 – Data Ingestion
+
+* Created project structure
+* Loaded Mutual Fund datasets
+* Retrieved live NAV data using MFAPI
+* Saved raw datasets
+* Initial data exploration
+
+### Day 2 – Data Cleaning & Database
+
+* Cleaned NAV datasets
+* Removed duplicate records
+* Converted date columns
+* Created processed datasets
+* Built SQLite database
+* Loaded cleaned data into SQLite
+* Wrote SQL schema
+* Created SQL queries
+
+### Day 3 – Exploratory Data Analysis
+
+* NAV Trend Analysis
+* Correlation Heatmap
+* Box Plot
+* Histogram
+* Average NAV Analysis
+* Maximum & Minimum NAV
+* Monthly NAV Analysis
+* Standard Deviation Analysis
+* Fund Distribution Pie Chart
+* Generated 13+ charts
+* Documented EDA insights
+
+### Dashboard Development
+
+Built an interactive Streamlit dashboard featuring:
+
+* KPI Cards
+* Dataset Preview
+* Summary Statistics
+* Fund Filter
+* NAV Trend Visualization
+* Latest NAV Table
+* Download CSV Feature
 
 ---
 
-## Day 1 – Project Setup & Data Ingestion (ETL)
+# 📊 Dashboard Features
 
-### Completed Tasks
-
-* Created project folder structure.
-* Installed required Python libraries.
-* Loaded Mutual Fund datasets.
-* Retrieved live NAV data from MFAPI.
-* Saved raw datasets.
-* Performed initial data exploration.
-* Uploaded project to GitHub.
+* Interactive Sidebar Filters
+* Key Performance Indicators (KPIs)
+* NAV Trend Analysis
+* Dataset Preview
+* Summary Statistics
+* Latest NAV Table
+* Download Filtered CSV
 
 ---
 
-## Day 2 – Data Cleaning & SQLite Database Design
-
-### Completed Tasks
-
-* Cleaned NAV datasets.
-* Converted date columns to datetime format.
-* Removed duplicate records.
-* Validated NAV values.
-* Created processed datasets.
-* Built SQLite database (`bluestock_mf.db`).
-* Loaded cleaned data into SQLite.
-* Created SQL schema.
-* Wrote analytical SQL queries.
-* Prepared a data dictionary.
-
----
-
-## Deliverables
+# 📁 Deliverables
 
 * Source Code
 * Raw Datasets
 * Processed Datasets
 * SQLite Database
-* SQL Schema
 * SQL Queries
-* Data Dictionary
+* SQL Schema
+* EDA Notebook
+* Dashboard
+* Charts
+* Reports
 * Documentation
-* README
 
 ---
 
-## GitHub Repository
+# 🚀 How to Run
 
-**Repository:** https://github.com/Rk151103/Day-1-Data-ingestion-complete
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Run Dashboard
+
+```bash
+python -m streamlit run dashboard/app.py
+```
 
 ---
 
-## Project Status
+# 📈 Project Status
 
-* ✅ Day 1 – Completed
-* ✅ Day 2 – Completed
+* ✅ Day 1 Completed
+* ✅ Day 2 Completed
+* ✅ Exploratory Data Analysis Completed
+* ✅ Dashboard Completed
+* ✅ GitHub Repository Updated
 
 ---
 
-## Author
+# 👨‍💻 Author
 
 **Rakesh Kore**
+
 Data Analyst Intern
+
 Bluestock Fintech
